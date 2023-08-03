@@ -1,0 +1,14 @@
+cloud:
+  jira:
+    id:
+    pass:
+
+api:
+  cloud:
+    jira:
+      issue: https://ssoohyun.atlassian.net/rest/api/3/issue
+      issue2: http://localhost:33333/cloud/jira/issue
+
+logging:
+  level:
+    com.arms.openfeign: DEBUG
